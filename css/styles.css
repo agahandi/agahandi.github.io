@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5,h6{
 }
 
 #choco #hero{
-  background-image: url(../img/Choco4.jpg);
+  background-image: url(../img/choco4.jpg);
   background-size: cover;
   background-position: 50% 40%;
   background-blend-mode: multiply;
