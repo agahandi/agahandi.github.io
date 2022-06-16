@@ -1,2 +1,2 @@
 # agahandi.github.io
-A place to publish my cct360 content
+This is going to be my first published website for CCT360.
