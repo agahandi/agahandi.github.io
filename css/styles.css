@@ -1,0 +1,114 @@
+/* Bootstrap simplifies our workflow, but it's still helpful to add our own CSS */
+/* This file will include CSS to override Bootstrap defaults */
+body{
+  font-family: 'raleway', sans-serif;
+  font-weight: 700;
+}
+/* Typography */
+h1, h2, h3, h4, h5,h6{
+  font-family: 'bree serif', serif;
+}
+
+.badge{
+  font-family: 'raleway', sans-serif;
+}
+/* Wordmark */
+#wordmark{
+  font-family: 'bree serif', serif;
+  font-size: 1.4em;
+}
+#wordmark svg{
+  fill: #ffff;
+}
+#wordmark span{
+  font-family: 'raleway', sans-serif;
+  font-weight: 300;
+  font-size: 1.4em;
+}
+/* Hero */
+#hero{
+  background-image: url(../img/choco.jpg);
+  background-size: cover;
+  background-position: 50% 73%;
+  background-blend-mode: multiply;
+}
+
+#choco #hero{
+  background-image: url(../img/Choco4.jpg);
+  background-size: cover;
+  background-position: 50% 40%;
+  background-blend-mode: multiply;
+
+}
+#choco #numbers{
+  background-image: url(../img/flower.jpg);
+  background-size: cover;
+  background-position: 50% 33%;
+  background-blend-mode: soft-light;
+}
+
+#choco #numbers .row{
+  background-color: #ffffff66;
+}
+
+#choco .progress{
+  height: 100%;
+}
+
+
+#friends #hero{
+  background-image: none;
+}
+
+#friends #hero video{
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+
+
+#friends .carousel-caption{
+  background: #00000066;
+}
+
+#friends #hero span.bg-masha{
+  color: sienna;
+  background-color: #ffff;
+}
+
+#friends #hero span.bg-jack{
+  color: black;
+  background-color: #ffff;
+}
+
+
+#humans #hero{
+  background-image: url(../img/humans.jpg);
+  background-size: cover;
+  background-position: 50% 35%;
+  background-blend-mode: multiply;
+}
+
+h5{
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+/* Dark background */
+.bg-dark{
+  background-color: #ff6699!important;
+}
+.dropdown-menu-dark{
+  background-color: #6c757d!important;
+}
+.bg-secondary{
+  background-color: #adaeb0!important;
+}
+
+.dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active{
+  background-color: #dd6d9e;
+}
+
+
+.bg-info{
+  background-color: #94cfb1!important;
+}
