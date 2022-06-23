@@ -1,114 +1,135 @@
-/* Bootstrap simplifies our workflow, but it's still helpful to add our own CSS */
-/* This file will include CSS to override Bootstrap defaults */
 body{
-  font-family: 'raleway', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
 }
-/* Typography */
+
+
 h1, h2, h3, h4, h5,h6{
-  font-family: 'bree serif', serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+p {
+  line-height: 2rem;
+}
+.nav-item{
+  text-transform: uppercase;
+}
+ .nav-link {
+    color: black!important;
+}
+.nav-item a:hover{
+  color: #bfbfbf!important;
 }
 
-.badge{
-  font-family: 'raleway', sans-serif;
+.footer-item a:hover{
+  color: #009999!important;
 }
-/* Wordmark */
+
 #wordmark{
-  font-family: 'bree serif', serif;
-  font-size: 1.4em;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1em;
 }
-#wordmark svg{
-  fill: #ffff;
-}
-#wordmark span{
-  font-family: 'raleway', sans-serif;
-  font-weight: 300;
-  font-size: 1.4em;
-}
-/* Hero */
+
 #hero{
-  background-image: url(../img/choco.jpg);
+    background-image: url(../img/design.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+#contact #hero{
+      background-image: url(../img/email.jpg);
+      background-size: cover;
+      background-position: 50% 50%;
+      background-blend-mode: multiply;
+    }
+
+#quilling #hero{
+  background-image: url(../img/catmoon.jpg);
   background-size: cover;
-  background-position: 50% 73%;
+  background-position: 50% 50%;
   background-blend-mode: multiply;
 }
 
-#choco #hero{
-  background-image: url(../img/choco4.jpg);
+#process #hero{
+  background-image: url(../img/process.jpg);
   background-size: cover;
-  background-position: 50% 40%;
+  background-position: 50% 50%;
   background-blend-mode: multiply;
-
-}
-#choco #numbers{
-  background-image: url(../img/flower.jpg);
-  background-size: cover;
-  background-position: 50% 33%;
-  background-blend-mode: soft-light;
 }
 
-#choco #numbers .row{
-  background-color: #ffffff66;
+#quilling #main{
+    background-color: #f2f2f2!important;
+}
+#resume #main{
+    background-color: #f2f2f2!important;
+}
+#contact #main{
+  background-color: #f2f2f2!important;
 }
 
-#choco .progress{
-  height: 100%;
+#photography #album{
+  background-color: #f2f2f2!important;
 }
-
-
-#friends #hero{
+#photography #hero{
   background-image: none;
 }
+#process #main{
+    background-color: #f2f2f2!important;
+}
 
-#friends #hero video{
+#photography #hero video{
   object-fit: cover;
-  mix-blend-mode: multiply;
+  mix-blend-mode: soft-light;
 }
 
-
-#friends .carousel-caption{
-  background: #00000066;
-}
-
-#friends #hero span.bg-masha{
-  color: sienna;
-  background-color: #ffff;
-}
-
-#friends #hero span.bg-jack{
-  color: black;
-  background-color: #ffff;
-}
-
-
-#humans #hero{
-  background-image: url(../img/humans.jpg);
+#resume #hero{
+  background-image: url(../img/about.jpg);
   background-size: cover;
-  background-position: 50% 35%;
+  background-position: 50% 90%;
   background-blend-mode: multiply;
 }
 
-h5{
-  font-size: 1.5em;
-  font-weight: 700;
+#resume #main svg{
+  fill: #009999!important;
+}
+#education span{
+  color: #009999!important;
+}
+#resume #sidebar svg{
+  fill: #ffff!important;
+}
+#process #credits a{
+  color: #006666!important;
+}
+#process #main a{
+  color: #006666!important;
 }
 
-/* Dark background */
+
+ #blue svg{
+  color: #006666!important;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 700;
+      }
+
+.btn-outline-secondary:hover{
+  color: #009999!important;
+}
+
+.nav-link.active{
+  color: #009999!important;
+}
+
 .bg-dark{
-  background-color: #ff6699!important;
-}
-.dropdown-menu-dark{
-  background-color: #6c757d!important;
-}
-.bg-secondary{
-  background-color: #adaeb0!important;
+  background-color: #006666!important;
 }
 
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active{
-  background-color: #dd6d9e;
+  background-color: #009999;
 }
-
-
-.bg-info{
-  background-color: #94cfb1!important;
+#quilling .carousel-caption{
+  background: #00000066;
 }

@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Photography gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  </head>
+  <body  id="photography" class="bg-light d-flex flex-column h-100">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container">
+  <a id="wordmark" class="navbar-brand" href="index.html">
+  <img src="img/Logo.svg" alt="logo" class="d-inline-block me-1 align-bottom" width="50" height="40">
+      Andisheh Agah
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto mt-3">
+            <li class="nav-item mx-3">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="resume.html">
+              Resume
+              </a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="process.html">
+              Process
+              </a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="contact.html">
+              Contact
+              </a>
+            </li>
+            <li class="nav-item dropdown mx-3">
+              <a class="nav-link dropdown-toggle active" aria-current="page" href="/" id="navbarDropdownMenuLinkskill" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Arts
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLinkskill">
+                <li><a class="dropdown-item" href="quilling.html">Quilling art</a></li>
+                <li><a class="dropdown-item active" href="photography.html">Photography</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+</div>
+</nav>
+<div id="hero" class="p-0 mb-4 bg-dark text-light position-relative">
+  <video class="card-img-top position-absolute h-100" playsinline autoplay muted loop>
+    <source src="img/media/sea.mp4" type="video/mp4">
+  </video>
+  <div class="container py-5 position-relative">
+    <div class="row g-5 py-5 mx-3">
+      <div class="col-10 col-sm-8 col-lg-6">
+      </div>
+      <div class="col-lg-8">
+        <h1 class="display-1 fw-bold lh-1 mb-3">World is beautiful</h1>
+        <p class="lead fs-4">Photography has tought me to see only beauties.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="container">
+  <!--modal-->
+  <div class="modal" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen-md-down modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5>Solitude</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="img/gallery/0.jpg" class="w-100" alt="">
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="modal" id="myModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen-md-down modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5>Growth</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+          <div class="modal-body">
+            <img src="img/gallery/8.jpg" class="w-100" alt="">
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="modal" id="myModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen-md-down modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5>Judgment</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body">
+              <img src="img/gallery/1.jpg" class="w-100" alt="">
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="modal" id="myModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen-md-down modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5>Shiraz old alley</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+              <div class="modal-body">
+                <img src="img/gallery/2.jpg" class="w-100" alt="">
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="modal" id="myModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen-md-down modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5>To nowhere</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                  <img src="img/gallery/3.jpg" class="w-100" alt="">
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="modal" id="myModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-fullscreen-md-down modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5>Seagull</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                  <div class="modal-body">
+                    <img src="img/gallery/7.jpg" class="w-100" alt="">
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="modal" id="myModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen-md-down modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5>Illusion</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body">
+                      <img src="img/gallery/4.jpg" class="w-100" alt="">
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="modal" id="myModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-fullscreen-md-down modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5>Soar</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                      <div class="modal-body">
+                        <img src="img/gallery/5.jpg" class="w-100" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="modal" id="myModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen-md-down modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5>Modernity</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                        <div class="modal-body">
+                          <img src="img/gallery/6.jpg" class="w-100" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+  <!--end of modal-->
+<div id="album" class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img data-bs-toggle="modal" data-bs-target="#myModal" src="img/gallery/0.jpg" class="w-100" alt="newspapper and a glasses" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect>
+
+            <div class="card-body">
+              <h5>Solitude</h5>
+              <p class="card-text">Sometimes you have to stop seeing the world depicted by fake media.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button data-bs-toggle="modal" data-bs-target="#myModal" type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img data-bs-toggle="modal" data-bs-target="#myModal2" src="img/gallery/8.jpg" class="w-100" alt="rainy window" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect>
+
+            <div class="card-body">
+              <h5>Growth</h5>
+              <p class="card-text">In this photo, the book is linked to rain as a symbol of growth and prosperity.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#myModal2" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img data-bs-toggle="modal" data-bs-target="#myModal3" src="img/gallery/1.jpg" class="w-100" alt="old man" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect>
+
+            <div class="card-body">
+              <h5>Judgments</h5>
+              <p class="card-text">People's shadows behind him and his covered face indicate his tiredness of Judgments.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#myModal3" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img data-bs-toggle="modal" data-bs-target="#myModal4" src="img/gallery/2.jpg" class="w-100" alt="old alley" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect>
+
+            <div class="card-body">
+              <h5>Shiraz old alley</h5>
+              <p class="card-text">This photo reminds me of time, awaiting, and life flow.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#myModal4" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img data-bs-toggle="modal" data-bs-target="#myModal5" src="img/gallery/3.jpg" class="w-100" alt="Railway" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect>
+
+            <div class="card-body">
+              <h5>To nowhere</h5>
+              <p class="card-text">The perspective instills that the railway is going to infinity.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#myModal5" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img data-bs-toggle="modal" data-bs-target="#myModal6" src="img/gallery/7.jpg" class="w-100" alt="Seagull" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect>
+            <div class="card-body">
+              <h5>Seagull</h5>
+              <p class="card-text">Be like this gull; Free from the hustle and bustle of the world.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#myModal6" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img data-bs-toggle="modal" data-bs-target="#myModal7" src="img/gallery/4.jpg" class="w-100" alt="A man with umbrella" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect>
+            <div class="card-body">
+              <h5>Illusion</h5>
+              <p class="card-text">No matter how difficult the way may seem if you are determined to reach the destination.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#myModal7" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img data-bs-toggle="modal" data-bs-target="#myModal8" src="img/gallery/5.jpg" class="w-100" alt="Birds" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect>
+            <div class="card-body">
+              <h5>Soar</h5>
+              <p class="card-text">Sometimes you have to be different to reach the top.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#myModal8" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img data-bs-toggle="modal" data-bs-target="#myModal9" src="img/gallery/6.jpg" class="w-100" alt="Modern bridge" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect>
+
+            <div class="card-body">
+              <h5>Modernity</h5>
+              <p class="card-text">In order to survive, we must find the balance between nature and modernity.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#myModal9" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+  <!-- https://getbootstrap.com/docs/5.0/examples/jumbotron/ -->
+  <div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="footer-item"><a href="https://www.sheridancollege.ca/" class="nav-link px-2 text-muted">Sheridan College</a></li>
+      <li class="footer-item"><a href="https://getbootstrap.com/" class="nav-link px-2 text-muted">Bootstrap</a></li>
+      <li class="footer-item"><a href="https://www.canva.com/" class="nav-link px-2 text-muted">Canva</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2022 Created by Andisheh Agah with bootstrap for CCT360</p>
+  </footer>
+</div>
+
+    <!-- Bootstrap Javascript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script>
+ const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
+</script>
+  </body>
+</html>
